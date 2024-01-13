@@ -73,6 +73,7 @@ body{
 }
 .remember-forget a:hover {
     text-decoration: underline;
+    color: purple;
 }
 .wrapper .btn {
     width: 100%;
@@ -87,6 +88,10 @@ body{
     color: #333;
     font-weight: 600;
 }
+.wrapper .btn:hover{
+    background-color: purple;
+    color: #fff;
+}
 .wrapper .register-link {
     font-size: 14.5px;
     text-align: center;
@@ -99,4 +104,5 @@ body{
 }
 .register-link p a:hover{
     text-decoration: underline;
+    color: purple;
 }
